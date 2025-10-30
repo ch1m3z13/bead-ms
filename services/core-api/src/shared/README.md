@@ -1,0 +1,1 @@
+This folder proxies imports to the shared package in repo root. When deploying, ensure shared code is available or copy utilities into each project as needed.

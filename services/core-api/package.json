@@ -1,0 +1,13 @@
+{
+  "name": "bead-core-api",
+  "type": "module",
+  "dependencies": {
+    "fastify": "^4.26.2",
+    "ioredis": "^5.4.1",
+    "@supabase/supabase-js": "^2.45.4",
+    "dotenv": "^16.4.5"
+  },
+  "scripts": {
+    "dev": "node src/index.js"
+  }
+}
