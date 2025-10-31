@@ -1,0 +1,19 @@
+{
+  "name": "@bead/shared",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch"
+  },
+  "dependencies": {
+    "bullmq": "^5.1.0",
+    "ioredis": "^5.3.2",
+    "@supabase/supabase-js": "^2.39.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3",
+    "@types/node": "^20.10.6"
+  }
+}
