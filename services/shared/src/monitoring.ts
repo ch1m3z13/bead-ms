@@ -1,0 +1,14 @@
+import * as Sentry from '@sentry/node';
+
+export function initSentry(serviceName: string) {
+  if (process.env.SENTRY_DSN) {
+    Sentry.init({
+      dsn: process.env.SENTRY_DSN,
+      environment: process.env.NODE_ENV || 'development',
+      serverName: serviceName,
+      tracesSampleRate: 0.1,
+    });
+  }
+}
+
+export { Sentry };
